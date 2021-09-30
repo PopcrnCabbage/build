@@ -5,7 +5,8 @@ environment:
 
 dependencies:
   analyzer: ^2.0.0
-  build: ^2.0.0
+  build:
+    path: ../build
   # Not imported in code, but used to constrain `build.yaml` requirements
   build_config: ^1.0.0
 

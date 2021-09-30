@@ -1,5 +1,5 @@
 name: build
-version: 2.1.1-dev
+version: 2.1.2
 description: A package for authoring build_runner compatible code generators.
 repository: https://github.com/dart-lang/build/tree/master/build
 
@@ -17,7 +17,9 @@ dependencies:
   path: ^1.8.0
 
 dev_dependencies:
-  build_resolvers: ^2.0.0
-  build_test: ^2.0.0
+  build_resolvers:
+    path: ../build_resolvers
+  build_test:
+    path: ../build_test
   pedantic: ^1.0.0
   test: ^1.16.0

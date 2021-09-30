@@ -6,7 +6,7 @@ environment:
 
 dev_dependencies:
   analyzer: ">=1.0.0 <3.0.0"
-  build: any
+   any
   build_config: any
   build_modules: any
   build_vm_compilers: any
@@ -22,7 +22,7 @@ dev_dependencies:
   test_process: ^2.0.0
 
 dependency_overrides:
-  build:
+
     path: ../build
   build_config:
     path: ../build_config
